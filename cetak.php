@@ -17,7 +17,7 @@ hasil cetak
 </html>
 
 <?php
-$filename="surat-permohonan".".pdf"; 
+$filename="cetak".".pdf"; 
 $content = ob_get_clean();
 $content = '<page style="font-family: freeserif">'.$content.'</page>';
 
